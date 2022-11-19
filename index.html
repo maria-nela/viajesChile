@@ -18,7 +18,7 @@
 </head>
 <body>
 
-    <!--Creamos el navbar-->
+    <!--Creamos el navbar de boostrap 5.0-->
     <div id="scrollspyHeading1" class="container">
         <nav id="navbar-example2" class="navbar px-3 mb-3 fixed-top">
         <a class="navbar-brand ms-5" href="#">
@@ -42,18 +42,7 @@
       </nav>
     </div>
 
-      <!-- <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
-        <h4 id="scrollspyHeading1">First heading</h4>
-        <p>...</p>
-        <h4 id="scrollspyHeading2">Second heading</h4>
-        <p>...</p>
-        <h4 id="scrollspyHeading3">Third heading</h4>
-        <p>...</p>
-        <h4 id="scrollspyHeading4">Fourth heading</h4>
-        <p>...</p>
-      </div>-->
-
-      <!--Creamos el carousel-->
+      <!--Creamos el elememto de boostrap 5.0 carousel-->
 
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -82,7 +71,7 @@
         <div class="container">
             <h4 id="scrollspyHeading2" class="estilo-2 d-flex justify-content-center pt-5">¿QUIÉNES SOMOS?</h4>
             <hr class="barra pb-3">
-    <!--creamos tres secciones de 4 columnas cada una-->
+    <!--creamos tres secciones de 4 columnas cada una con boostrap 5.0-->
             <div class="row">
                 <div class="col-12 col-md-4 ms-auto">
                     <div class="icono">
@@ -119,8 +108,8 @@
                 <div class="card">
                     <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title estilo-1">Lorem ipsum dolor sit amet</h5>
-                    <p class="card-text estilo-3">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua</p>
+                    <h5 class="card-title titulo-tarjeta estilo-1">Lorem ipsum dolor sit amet</h5>
+                    <p class="card-text texto-tarjeta estilo-3">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua</p>
                     </div>
                 </div>
             </div>
@@ -129,8 +118,8 @@
                 <div class="card">
                     <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title estilo-1">Lorem ipsum dolor sit amet</h5>
-                    <p class="card-text estilo-3">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua</p>
+                    <h5 class="card-title titulo-tarjeta estilo-1">Lorem ipsum dolor sit amet</h5>
+                    <p class="card-text texto-tarjeta estilo-3">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua</p>
                     </div>
                 </div>
             </div>
@@ -139,8 +128,8 @@
                 <div class="card">
                     <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title estilo-1">Lorem ipsum dolor sit amet</h5>
-                    <p class="card-text estilo-3">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua</p>
+                    <h5 class="card-title titulo-tarjeta estilo-1">Lorem ipsum dolor sit amet</h5>
+                    <p class="card-text texto-tarjeta estilo-3">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua</p>
                     </div>
                 </div>
             </div>
@@ -149,8 +138,8 @@
                 <div class="card">
                     <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title estilo-1">Lorem ipsum dolor sit amet</h5>
-                    <p class="card-text estilo-3">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua</p>
+                    <h5 class="card-title titulo-tarjeta estilo-1">Lorem ipsum dolor sit amet</h5>
+                    <p class="card-text texto-tarjeta estilo-3">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua</p>
                     </div>
                 </div>
             </div>
@@ -162,7 +151,7 @@
             <h4 id="scrollspyHeading4" class="estilo-2 d-flex justify-content-center pt-5">CONTACTO</h4>
             <hr class="barra pb-3">
     
-        <!--Sección de formulario-->
+        <!--Sección de formulario con Boostrap 5.0 form-->
         <form>
             <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label estilo-3">Nombre</label>
@@ -176,8 +165,9 @@
                 <label class="mb-2">Mensaje</label>
                 <textarea class="form-control" placeholder=""></textarea>
             </div>
-        
-            <button type="submit" class="btn btn-primary mt-3 mb-5">Enviar</button>
+            <!--Tooltip y alert aplicando boostrap JS-->
+            <div id="liveAlertPlaceholder"></div>
+            <button id="liveAlertBtn" type="button" class="btn btn-primary mt-3 mb-5 boton-formulario estilo-1" data-bs-toggle="tooltip" data-bs-placement="right" title="Envianos tu mensaje">Enviar</button>
         </form>
         </div>
     </section>

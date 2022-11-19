@@ -1,6 +1,6 @@
 /*----Estilo de fuentes---*/
 .estilo-1{
-    color: azure;
+    color: rgb(240, 246, 255);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -16,7 +16,7 @@
 .estilo-3{
     color: azure;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 16px;
 }
 
@@ -38,8 +38,8 @@
     background-color: black;
 }
 
-.icono, .card-body, .pie-de-pagina{
-    background-color: rgb(96, 189, 255);
+.icono, .card-body, .pie-de-pagina, .boton-formulario{
+    background-color: rgb(39, 156, 240);
 }
 
 .card-img-top{
