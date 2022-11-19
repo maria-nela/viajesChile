@@ -1,3 +1,5 @@
+
+/*---Para cambiar el color de fondo del navbar ---*/
 $(function (){
     $(window).scroll(function(){
         if ($(this).scrollTop() > 150) {
