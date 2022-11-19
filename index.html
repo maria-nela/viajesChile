@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" content = "Marianela Lo Bello">
+    <meta name = "description" content = "Chile Viajes">
+    <meta name = "keywords" content = "Viajes, naturaleza, estilo de vida">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,31 +21,36 @@
 </head>
 <body>
 
-    <!--Creamos el navbar de boostrap 5.0-->
-    <div id="scrollspyHeading1" class="container">
-        <nav id="navbar-example2" class="navbar px-3-md mb-3-md fixed-top">
-        <a class="navbar-brand ms-5 d-none d-sm-block" href="#">
+    <!--Creamos el navbar de boostrap 5.1-->
+    <div id="scrollspyHeading1" class="container-fluid">
+        <nav id="navbar-example2" class="navbar navbar-expand-lg px-3-md mb-3-md fixed-top">
+        <a class="navbar-brand ms-5 px-5" href="#">
             <img class="logo-page" src="assets/img/viajes.svg" alt="">
             <h1 class="estilo-4 d-inline p-2">Viajes Chile</h1>
         </a>
-        <ul class="nav nav-pills mx-5-md mx-1-sm">
+        <button class="navbar-toggler mx-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-5 px-5" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link estilo-4 px-5-md px-1-sm" href="#scrollspyHeading1">Inicio</a>
+            <a class="nav-link estilo-4" href="#scrollspyHeading1">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link estilo-4 px-5-md px-1-sm d-none d-md-block" href="#scrollspyHeading2">Quienes Somos</a>
+            <a class="nav-link estilo-4" href="#scrollspyHeading2">Quienes Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link estilo-4 px-5-md px-1-sm" href="#scrollspyHeading3">Destacados</a>
+            <a class="nav-link estilo-4" href="#scrollspyHeading3">Destacados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link estilo-4 px-5-md px-1-sm" href="#scrollspyHeading4">Contacto</a>
+            <a class="nav-link estilo-4" href="#scrollspyHeading4">Contacto</a>
           </li>
         </ul>
+        </div>
       </nav>
     </div>
 
-      <!--Creamos el elememto de boostrap 5.0 carousel-->
+      <!--Creamos el elememto de boostrap 5.1 carousel-->
 
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -72,7 +80,7 @@
         <div class="container d-none d-md-block">
             <h4 id="scrollspyHeading2" class="estilo-2 d-flex justify-content-center pt-5">¿QUIÉNES SOMOS?</h4>
             <hr class="barra pb-3">
-    <!--creamos tres secciones de 4 columnas cada una con boostrap 5.0-->
+    <!--creamos tres secciones de 4 columnas cada una con boostrap 5.1 y agregamos iconos de fontawesome-->
             <div class="row">
                 <div class="col-12 col-md-4 ms-auto">
                     <div class="icono">

@@ -27,7 +27,6 @@
     font-size: 20px;
 }
 
-
 /*----Estilo al navbar----*/
 
 .logo-page{
@@ -37,6 +36,10 @@
 .scroll-efect {
 	transition: all 0.5s;
 	background-color: rgba(34, 34, 34, 0.9);
+}
+
+.navbar-toggler, .navbar-toggler-icon{
+    color:azure !important;
 }
 
 /*----Estilo seccion "Quienes Somos"----*/
@@ -95,7 +98,6 @@
         font-size: 20px;
     }
 }
-
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {

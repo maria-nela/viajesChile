@@ -8,8 +8,6 @@ $(function (){
     });
 });
 
-
-
 /*---Para coultar texto de las card ---*/
 $(document).ready(function()
 {
@@ -24,7 +22,6 @@ $(".titulo-tarjeta").on( "click", function() {
     $(".titulo-tarjeta").css({'text-shadow': '3px 3px 6px rgb(9, 33, 108)','font-weight': '500'});
     });
  
-
 /*---Mensaje de alerta---*/
     var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 var alertTrigger = document.getElementById('liveAlertBtn')
