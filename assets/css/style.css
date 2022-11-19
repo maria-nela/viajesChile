@@ -2,7 +2,7 @@
 .estilo-1{
     color: rgb(240, 246, 255);
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 18px;
 }
 
@@ -18,6 +18,13 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 16px;
+}
+
+.estilo-4{
+    color: rgb(240, 246, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 
@@ -56,5 +63,58 @@
     color:azure
 }
 
+/*----Media Queries"----*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .estilo-4{
+        color: rgb(240, 246, 255);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .estilo-4{
+        color: rgb(240, 246, 255);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .estilo-4{
+        color: rgb(240, 246, 255);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .estilo-4{
+        color: rgb(240, 246, 255);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .estilo-4{
+        color: rgb(240, 246, 255);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
 
 
