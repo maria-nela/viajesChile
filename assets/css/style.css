@@ -6,6 +6,20 @@
     font-size: 18px;
 }
 
+.estilo-2{
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.estilo-3{
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
 
 /*----Estilo al navbar----*/
 
@@ -17,4 +31,30 @@
 	transition: all 0.5s;
 	background-color: rgba(34, 34, 34, 0.9);
 }
+
+/*----Estilo seccion "Quienes Somos"----*/
+
+.cuerpo{
+    background-color: black;
+}
+
+.icono, .card-body, .pie-de-pagina{
+    background-color: rgb(96, 189, 255);
+}
+
+.card-img-top{
+    height: 150px;
+}
+
+.barra{
+    color: #ffe4c47a;
+    height: 3px;
+}
+
+/*----Iconos fontawesome"----*/
+.iconos{
+    color:azure
+}
+
+
 
